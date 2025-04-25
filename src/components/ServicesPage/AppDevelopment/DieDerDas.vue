@@ -15,22 +15,22 @@
     <!-- Responsive Images Section -->
     <div class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-4">
       <img 
-        src="@/assets/dieDerDas-1.png" 
+        src="/images/dieDerDas-1.png" 
         alt="Image 1" 
         class="w-full h-auto rounded-lg"
       />
       <img 
-        src="@/assets/dieDerDas-2.png" 
+        src="/images/dieDerDas-2.png" 
         alt="Image 2" 
         class="w-full h-auto rounded-lg"
       />
       <img 
-        src="@/assets/dieDerDas-3.png" 
+        src="/images/dieDerDas-3.png" 
         alt="Image 3" 
         class="w-full h-auto rounded-lg"
       />
       <img 
-        src="@/assets/dieDerDas-4.png" 
+        src="/images/dieDerDas-4.png" 
         alt="Image 4" 
         class="w-full h-auto rounded-lg"
       />

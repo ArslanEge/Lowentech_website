@@ -4,14 +4,14 @@
     <div class="flex flex-col items-center">
       <!-- Title -->
       <div class="text-center mb-12 px-4">
-        <h2 class="text-3xl sm:text-4xl lg:text-6xl font-bold text-gray leading-tight">
+        <h2 class="text-3xl sm:text-4xl lg:text-6xl 2xl:text-7xl font-bold text-gray leading-tight">
           The software solution you <br class="hidden sm:block" /> need is just a click away.
         </h2>
       </div>
 
       <!-- Contact Button -->
       <button
-        class="mb-16 px-6 py-3 bg-darker-blue hover:bg-text-blue text-white rounded-lg flex items-center space-x-2 text-lg font-medium"
+        class="mb-16 px-6 py-3 bg-darker-blue hover:bg-text-blue text-white rounded-lg flex items-center space-x-2 text-lg 2xl:text-2xl font-medium"
         @click="$router.push({ name: 'contact' })"
       >
         Contact now
@@ -33,18 +33,16 @@
       <!-- Links Section -->
       <div class="grid grid-cols-1 sm:grid-cols-3 gap-12 sm:gap-20 mt-8 text-center sm:text-left">
         <!-- Logo -->
-        <div class="flex justify-center sm:justify-start">
           <img
-            src="@/assets/logo.png"
-            class="w-[80px] h-[80px] sm:w-[90px] sm:h-[90px]"
+            src="/images/logo.png"
+            class="w-[50px] sm:w-[60px] md:w-[90px] lg:w-[110px] 2xl:w-[130px]"
             alt="Logo"
           />
-        </div>
 
         <!-- Quick Links -->
         <div>
-          <h4 class="text-lg font-semibold mb-4 text-white">Quick Links</h4>
-          <ul class="space-y-2">
+          <h4 class="text-lg 2xl:text-2xl font-semibold mb-4 text-white">Quick Links</h4>
+          <ul class="space-y-2 text-lg 2xl:text-2xl">
             <li><a href="/" class="hover:underline text-gray">Home</a></li>
             <li><a href="/about" class="hover:underline text-gray">About</a></li>
             <li><a href="/vehicle-diagnostic" class="hover:underline text-gray">Services</a></li>
@@ -53,8 +51,8 @@
 
         <!-- Help & Support -->
         <div>
-          <h4 class="text-lg font-semibold mb-4 text-white">Help & Support</h4>
-          <ul class="space-y-2">
+          <h4 class="text-lg 2xl:text-2xl font-semibold mb-4 text-white">Help & Support</h4>
+          <ul class="space-y-2 text-lg 2xl:text-2xl">
             <li><a href="/contact" class="hover:underline text-gray">FAQ</a></li>
             <li><a href="/contact" class="hover:underline text-gray">Contact</a></li>
           </ul>

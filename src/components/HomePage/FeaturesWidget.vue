@@ -1,11 +1,11 @@
 <template>
     <div>
-      <Card class="bg-pure-black text-white p-6 md:p-10 rounded-none">
+      <Card class="bg-pure-black text-white p-6 md:p-10 xl:p-12 2xl:p-20 rounded-none">
         <template #content>
-          <div class="flex flex-wrap justify-between items-start">
+          <div class="flex flex-col md:flex-row items-stretch w-full">
             <!-- Left Section (Features List) -->
-            <div class="flex-[0_0_100%] md:flex-[0_0_25%] p-4 flex flex-col md:items-end">
-              <div class="flex flex-col space-y-3">
+            <div class="flex-[0_0_100%] md:flex-[0_0_25%] flex flex-col md:items-left">
+              <div class="flex flex-col justify-between h-full">
                 <div class="border-[1px] border-text-gray rounded-lg px-4 py-2 text-sm font-light w-fit">
                   Custom-Crafted
                 </div>
@@ -28,14 +28,14 @@
             </div>
   
             <!-- Right Section (Text) -->
-            <div class="flex-[0_0_100%] md:flex-[0_0_75%] p-4  md:text-lef">
-              <p class="text-text-gray text-lg md:text-2xl font-normal">
+            <div class="flex-[0_0_100%] md:flex-[0_0_75%] md:text-left">
+              <p class="text-text-gray text-lg md:text-2xl xl:text-3xl 2xl:text-4xl font-normal">
                 Welcome to <strong class="text-header-gray">Löwentech</strong>, where we are passionately dedicated to your
                 technological success. Our expert team specializes in creating tailor-made software solutions, leveraging our
                 extensive experience in IoT, embedded systems, and mobile application development to meet your unique
                 business needs.
               </p>
-              <p class="text-text-gray text-lg md:text-2xl font-normal mt-4">
+              <p class="text-text-gray text-lg md:text-2xl xl:text-3xl 2xl:text-4xl font-normal mt-4">
                 At Löwentech, we commit substantial time and expertise to customize every solution, ensuring
                 it aligns perfectly with your specific needs. Join us as we transform your ideas into
                 innovative, efficient, and effective technological solutions that drive real results. Let’s

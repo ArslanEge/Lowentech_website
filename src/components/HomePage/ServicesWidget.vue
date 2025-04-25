@@ -1,20 +1,20 @@
 <template>
-  <div class="bg-header-gray rounded-none px-4 sm:px-8 lg:px-32 pt-12">
+  <div class="bg-header-gray rounded-none px-4 pt-12 sm:px-8 lg:px-32 2xl:pt-24">
     <!-- "Our Services" Badge -->
-    <div class="bg-light-blue text-text-blue text-sm font-medium inline-block px-3 py-1 rounded mb-5">
+    <div class="bg-light-blue text-text-blue text-sm 2xl:text-2xl font-medium inline-block px-3 py-1 rounded mb-5">
       Our Services
     </div>
 
     <!-- Main Content -->
     <div class="flex flex-col sm:flex-row justify-between items-center sm:items-start pt-5 text-center sm:text-left">
       <!-- Left Text -->
-      <div class="w-full sm:w-1/2 text-3xl sm:text-4xl font-semibold text-black">
+      <div class="w-full sm:w-1/2 text-3xl sm:text-4xl 2xl:text-4xl font-semibold text-black">
         Empowering Innovation <br /> Enhancing Efficiency
       </div>
 
       <!-- Right Text -->
       <div class="w-full sm:w-1/2 sm:ml-10 mt-4 sm:mt-0">
-        <div class="text-soft-black text-lg font-normal pt-1 max-w-lg">
+        <div class="text-soft-black text-lg 2xl:text-3xl font-normal pt-1 max-w-lg 2xl:max-w-xl">
           Revolutionizing your operations, one solution at a time. Let Löwentech be your dedicated partner
           in navigating the complexities of technology.
         </div>
@@ -23,12 +23,12 @@
     
 
     <!-- Cards Section -->
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 pt-16">
+    <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 pt-16">
       <!-- Card 1 -->
       <Card class="bg-pure-black p-4">
         <template #content>
-          <div class="flex flex-col justify-center items-start h-[280px]">
-            <img class="w-128 h-auto" src="@/assets/polestar-4-side-profile-removebg-preview.png" alt="Polestar" />
+          <div class="flex flex-col justify-center items-center h-[280px] 2xl:h-[350px]">
+            <img class="w-128 h-auto" src="/images/polestar-4-side-profile-removebg-preview.png" alt="Polestar" />
           </div>
 
           <div class="text-white text-center text-2xl mt-12">
@@ -39,7 +39,7 @@
             <!-- Tags -->
             <div class="flex space-x-2">
               <div class="bg-black text-white text-sm font-medium px-3 py-1 rounded">CAN-Bus</div>
-              <div class="bg-black text-white text-sm font-medium px-3 py-1 rounded">Cloud Diagnostic</div>
+              <div class="bg-black text-white text-sm font-medium px-3 py-1 rounded">Diagnostic</div>
             </div>
 
             <!-- Arrow Button -->
@@ -56,8 +56,8 @@
       <!-- Card 2 -->
       <Card class="bg-gradient-to-b from-[#3566EB] via-[#60B0F6] to-[#3667EC] p-4">
         <template #content>
-          <div class="flex flex-col justify-center items-center h-[280px]">
-            <img class="w-48 h-auto" src="@/assets/iphone.png" alt="iPhone" />
+          <div class="flex flex-col justify-center items-center h-[280px] 2xl:h-[350px]">
+            <img class="w-48 h-auto" src="/images/iphone.png" alt="iPhone" />
           </div>
 
           <div class="text-white text-center text-2xl mt-12">
@@ -83,8 +83,8 @@
       <!-- Card 3 -->
       <Card class="bg-gradient-to-b from-[#cccccc] to-[#FFFFFF] p-4">
         <template #content>
-          <div class="flex flex-col justify-center items-center h-[280px]">
-            <img class="w-96 h-auto" src="@/assets/ttcontrol.png" alt="Embedded System" />
+          <div class="flex flex-col justify-center items-center h-[280px] 2xl:h-[350px]">
+            <img class="w-96 h-auto" src="/images/ttcontrol.png" alt="Embedded System" />
           </div>
 
           <div class="text-black text-center text-2xl mt-12">

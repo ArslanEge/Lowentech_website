@@ -35,27 +35,27 @@
     <!-- Responsive Images Section -->
     <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
       <img 
-        src="@/assets/grupBul-1.png" 
+        src="/images/grupBul-1.png" 
         alt="Image 1" 
         class="w-full h-auto rounded-lg"
       />
       <img 
-        src="@/assets/grupBul-2.png" 
+        src="/images/grupBul-2.png" 
         alt="Image 2" 
         class="w-full h-auto rounded-lg"
       />
       <img 
-        src="@/assets/grupBul-3.png" 
+        src="/images/grupBul-3.png" 
         alt="Image 3" 
         class="w-full h-auto rounded-lg"
       />
       <img 
-        src="@/assets/grupBul-4.png" 
+        src="/images/grupBul-4.png" 
         alt="Image 4" 
         class="w-full h-auto rounded-lg"
       />
       <img 
-        src="@/assets/grupBul-5.png" 
+        src="/images/grupBul-5.png" 
         alt="Image 5" 
         class="w-full h-auto rounded-lg"
       />

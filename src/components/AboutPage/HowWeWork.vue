@@ -29,7 +29,7 @@
         <!-- Step 1 -->
         <div class="flex flex-col sm:flex-row items-center sm:items-start text-center sm:text-left gap-x-10">
           <div class="w-full sm:w-1/2 flex justify-center sm:justify-start px-4 sm:px-0">
-            <img class="w-[300px] sm:w-[450px] h-auto rounded-lg shadow-md" src="@/assets/meeting.jpg" alt="Initial Consultation" />
+            <img class="w-[300px] sm:w-[450px] h-auto rounded-lg shadow-md" src="/images/meeting.jpg" alt="Initial Consultation" />
           </div>
           <div class="w-full sm:w-1/2 px-4 sm:px-0 mt-6 sm:mt-0">
             <div class="bg-gray text-black font-medium px-3 py-1 rounded-md mb-4 inline-block">
@@ -45,7 +45,7 @@
         <!-- Step 2 (Flipped for Larger Screens) -->
         <div class="flex flex-col sm:flex-row-reverse items-center sm:items-start text-center sm:text-left gap-x-10">
           <div class="w-full sm:w-1/2 flex justify-center sm:justify-start px-4 sm:px-0">
-            <img class="w-[300px] sm:w-[450px] h-auto rounded-lg shadow-md" src="@/assets/code.jpg" alt="Development & Delivery" />
+            <img class="w-[300px] sm:w-[450px] h-auto rounded-lg shadow-md" src="/images/code.jpg" alt="Development & Delivery" />
           </div>
           <div class="w-full sm:w-1/2 px-4 sm:px-0 mt-6 sm:mt-0">
             <div class="bg-gray text-black font-medium px-3 py-1 rounded-md mb-4 inline-block">
@@ -61,7 +61,7 @@
         <!-- Step 3 -->
         <div class="flex flex-col sm:flex-row items-center sm:items-start text-center sm:text-left gap-x-10">
           <div class="w-full sm:w-1/2 flex justify-center sm:justify-start px-4 sm:px-0">
-            <img class="w-[300px] sm:w-[450px] h-auto rounded-lg shadow-md" src="@/assets/work.jpg" alt="Final Delivery" />
+            <img class="w-[300px] sm:w-[450px] h-auto rounded-lg shadow-md" src="/images/work.jpg" alt="Final Delivery" />
           </div>
           <div class="w-full sm:w-1/2 px-4 sm:px-0 mt-6 sm:mt-0">
             <div class="bg-gray text-black font-medium px-3 py-1 rounded-md mb-4 inline-block">

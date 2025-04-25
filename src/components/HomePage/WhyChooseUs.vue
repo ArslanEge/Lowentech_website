@@ -1,7 +1,7 @@
 <template>
-    <div class="bg-header-gray rounded-none px-4 sm:px-8 lg:px-32 pt-12">
+    <div class="bg-header-gray rounded-none px-4 py-12 sm:px-8 lg:px-32 2xl:py-24">
       <!-- "Why Choose Us" Badge -->
-      <div class="bg-light-blue text-text-blue text-sm font-medium inline-block px-3 py-1 rounded mb-5">
+      <div class="bg-light-blue text-text-blue text-sm 2xl:text-2xl font-medium inline-block px-3 py-1 rounded mb-5">
         Why Choose Us
       </div>
   
@@ -14,7 +14,7 @@
   
         <!-- Right Text -->
         <div class="w-full sm:w-1/2 sm:ml-10 mt-4 sm:mt-0">
-          <div class="text-soft-black text-lg font-normal pt-1 max-w-lg">
+          <div class="text-soft-black text-lg 2xl:text-3xl font-normal pt-1 max-w-lg">
             We know that every organization has unique technological challenges, which is why we offer customized software solutions tailored to your specific needs.
           </div>
         </div>
@@ -22,7 +22,7 @@
   
       <!-- Count Up Section -->
       <div ref="countUpSection"
-        class="flex flex-wrap justify-center sm:justify-between items-center gap-6 sm:gap-0 py-10">
+        class="flex flex-wrap justify-center sm:justify-between items-center gap-6 sm:gap-0 py-10 2xl:py-20">
         
         <!-- Item 1 -->
         <div class="w-1/2 sm:w-auto flex-1 text-center">

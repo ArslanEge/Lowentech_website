@@ -4,7 +4,7 @@
       <div id="navbar" class="flex items-center justify-between">
         
         <!-- Left Side: Logo -->
-        <img src="@/assets/logo.png" class="w-[50px] sm:w-[60px] md:w-[90px]" alt="Responsive Image" />
+        <img src="/images/logo.png" class="w-[50px] sm:w-[60px] md:w-[90px]" alt="Responsive Image" />
         
         <!-- Mobile Menu Button -->
         <button class="md:hidden text-black" @click="toggleMobileMenu">
@@ -16,18 +16,18 @@
         
         <!-- Desktop Navigation -->
         <div class="hidden md:flex justify-between items-center space-x-4 sm:space-x-8 md:space-x-12">
-          <router-link to="/" class="text-black font-medium hover:text-blue">Home</router-link>
-          <router-link to="/about" class="text-black font-medium hover:text-blue">About</router-link>
+          <router-link to="/" class="text-black text-lg font-medium hover:text-blue 2xl:text-2xl">Home</router-link>
+          <router-link to="/about" class="text-black text-lg font-medium hover:text-blue 2xl:text-2xl">About</router-link>
           
           <!-- Service Dropdown Menu -->
           <div class="hover:text-blue" @mouseenter="openMenu" @mouseleave="menuControl">
-            <button class="text-black font-medium hover:text-blue">Services</button>
+            <button class="text-black text-lg font-medium hover:text-blue 2xl:text-2xl">Services</button>
             <i class="pi pi-chevron-down ml-2 text-xs"></i>
-            <PrimeMenu ref="menu" :model="services" :popup="true" class="bg-white shadow-lg rounded-md p-2 mt-2"
+            <PrimeMenu ref="menu" :model="services" :popup="true" class="bg-white text-lg 2xl:text-2xl shadow-lg rounded-md p-2 mt-2"
               @mouseenter="enteredMenu = true" @mouseleave="closeMenu" />
           </div>
           
-          <router-link to="/contact" class="text-black font-medium hover:text-blue">Contact</router-link>
+          <router-link to="/contact" class="text-black text-lg 2xl:text-2xl font-medium hover:text-blue w:text-xl">Contact</router-link>
         </div>
       </div>
     </div>

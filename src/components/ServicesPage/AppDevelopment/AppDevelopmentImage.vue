@@ -15,7 +15,7 @@
       we guarantee apps that not only meet but exceed user expectations.
     </p>
 
-    <img class="w-full h-auto" src="@/assets/app-development-image.jpg" alt="Responsive Image" />
+    <img class="w-full h-auto" src="/images/app-development-image.jpg" alt="Responsive Image" />
 
 
     <h1 class="text-2xl sm:text-3xl md:text-5xl font-extralight text-black mt-4">Take a look at our sample apps</h1>

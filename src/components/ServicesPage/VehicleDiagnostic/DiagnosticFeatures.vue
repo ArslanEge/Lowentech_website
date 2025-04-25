@@ -97,7 +97,7 @@
 
     <!-- Responsive Image -->
     <div class="flex justify-center">
-      <img class="w-full h-auto rounded-lg shadow-lg" src="@/assets/grafana.png" alt="Responsive Image" />
+      <img class="w-full h-auto rounded-lg shadow-lg" src="/images/grafana.png" alt="Responsive Image" />
     </div>
   </div>
 </template>

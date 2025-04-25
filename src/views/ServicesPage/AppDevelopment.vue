@@ -1,6 +1,6 @@
 <template>
     <DefaultHeader/>
-    <main >
+    <main class="">
   
       <section class="">
         <AppDevelopmentImage/>

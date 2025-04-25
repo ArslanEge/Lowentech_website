@@ -3,7 +3,7 @@
     <!-- Background Image -->
     <img
       class="w-full h-full object-cover"
-      src="@/assets/contactImage.jpg"
+      src="/images/contactImage.jpg"
       alt="Background"
     />
 

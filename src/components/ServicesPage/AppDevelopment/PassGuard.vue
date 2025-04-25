@@ -20,27 +20,27 @@
     <!-- Responsive Images Section -->
     <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
       <img 
-        src="@/assets/passGuard-1.png" 
+        src="/images/passGuard-1.png" 
         alt="Image 1" 
         class="w-full h-auto rounded-lg"
       />
       <img 
-        src="@/assets/passGuard-2.png" 
+        src="/images/passGuard-2.png" 
         alt="Image 2" 
         class="w-full h-auto rounded-lg"
       />
       <img 
-        src="@/assets/passGuard-3.png" 
+        src="/images/passGuard-3.png" 
         alt="Image 3" 
         class="w-full h-auto rounded-lg"
       />
       <img 
-        src="@/assets/passGuard-4.png" 
+        src="/images/passGuard-4.png" 
         alt="Image 4" 
         class="w-full h-auto rounded-lg"
       />
       <img 
-        src="@/assets/passGuard-5.png" 
+        src="/images/passGuard-5.png" 
         alt="Image 5" 
         class="w-full h-auto rounded-lg"
       />

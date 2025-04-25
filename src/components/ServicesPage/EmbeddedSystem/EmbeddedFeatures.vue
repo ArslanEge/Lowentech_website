@@ -20,8 +20,8 @@
 
     <!-- Responsive Images Section -->
     <div class="flex justify-center items-center gap-6 flex-wrap my-12">
-      <img src="@/assets/codesys.png" alt="Codesys" class="w-2/3 sm:w-1/2 lg:w-1/3 max-w-sm h-auto" />
-      <img src="@/assets/ttcontrol.png" alt="TTC" class="w-2/3 sm:w-1/2 lg:w-1/3 max-w-sm h-auto" />
+      <img src="/images/codesys.png" alt="Codesys" class="w-2/3 sm:w-1/2 lg:w-1/3 max-w-sm h-auto" />
+      <img src="/images/ttcontrol.png" alt="TTC" class="w-2/3 sm:w-1/2 lg:w-1/3 max-w-sm h-auto" />
     </div>
     
 
@@ -84,8 +84,8 @@
 
     <!-- Additional Images -->
     <div class="flex justify-center items-center gap-6 flex-wrap my-12">
-      <img src="@/assets/embeddedImage.png" alt="Embedded Image" class="w-2/3 sm:w-1/2 lg:w-1/3 max-w-sm h-auto" />
-      <img src="@/assets/mrs.png" alt="MRS" class="w-2/3 sm:w-1/2 lg:w-1/3 max-w-sm h-auto" />
+      <img src="/images/embeddedImage.png" alt="Embedded Image" class="w-2/3 sm:w-1/2 lg:w-1/3 max-w-sm h-auto" />
+      <img src="/images/mrs.png" alt="MRS" class="w-2/3 sm:w-1/2 lg:w-1/3 max-w-sm h-auto" />
     </div>
 
     <!-- Additional Features -->

@@ -14,7 +14,7 @@
 
     <!-- Responsive Image -->
     <div class="flex justify-center">
-      <img class="w-full  h-auto rounded-lg shadow-lg" src="@/assets/vehicle_image.png" alt="Responsive Image" />
+      <img class="w-full  h-auto rounded-lg shadow-lg" src="/images/vehicle_image.png" alt="Responsive Image" />
     </div>
   </div>
 </template>

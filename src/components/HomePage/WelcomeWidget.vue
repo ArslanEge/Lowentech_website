@@ -1,6 +1,6 @@
 <template>
     <img class="w-full h-auto" 
-    src="@/assets/welcome.png" alt="Responsive Image" />
+    src="/images/welcome.png" alt="Responsive Image" />
 </template>
 
 <script>

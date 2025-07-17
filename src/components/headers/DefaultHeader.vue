@@ -16,7 +16,7 @@
         
         <!-- Desktop Navigation -->
         <div class="hidden md:flex justify-between items-center space-x-4 sm:space-x-8 md:space-x-12">
-          <router-link to="/" class="text-black text-lg font-medium hover:text-blue 2xl:text-2xl">Deneme</router-link>
+          <router-link to="/" class="text-black text-lg font-medium hover:text-blue 2xl:text-2xl">Home</router-link>
           <router-link to="/about" class="text-black text-lg font-medium hover:text-blue 2xl:text-2xl">About</router-link>
           
           <!-- Service Dropdown Menu -->

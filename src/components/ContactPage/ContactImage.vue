@@ -24,7 +24,7 @@
         to meet your needs
       </p>
       <p class="text-base sm:text-xl lg:text-2xl text-white mt-4">
-        For more: <a href="mailto:info@lowentech.de" class="underline">lowentech.dev@gmail.com</a>
+        For more: <a href="mailto:info@lowentech.de" class="underline">info@lowentech.dev</a>
       </p>
     </div>
   </div>

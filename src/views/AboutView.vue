@@ -13,9 +13,9 @@
             <WhyUs/>
           </section>
 
-          <section class="">
+          <!-- <section class="">
             <OurTeam/>
-          </section>
+          </section> -->
   
   
       
@@ -30,7 +30,6 @@
   import AboutImage from '@/components/AboutPage/AboutImage.vue'
   import HowWeWork from '@/components/AboutPage/HowWeWork.vue'
   import WhyUs from '@/components/AboutPage/WhyUs.vue'
-  import OurTeam from '@/components/AboutPage/OurTeam.vue'
   
   export default {
     components: {
@@ -39,7 +38,7 @@
       AboutImage,
       HowWeWork,
       WhyUs,
-      OurTeam
+      // OurTeam
     },
   }
   </script>

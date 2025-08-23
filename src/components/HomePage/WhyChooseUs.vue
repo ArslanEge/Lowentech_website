@@ -22,51 +22,51 @@
   
       <!-- Count Up Section -->
       <div ref="countUpSection"
-        class="flex flex-wrap justify-center sm:justify-between items-center gap-6 sm:gap-0 py-10 2xl:py-20">
+        class="flex flex-col sm:flex-row justify-center sm:justify-between items-start sm:items-center gap-6 sm:gap-0 py-10 2xl:py-20">
         
         <!-- Item 1 -->
-        <div class="w-1/2 sm:w-auto flex-1 text-center">
-          <div class="flex items-center justify-center space-x-2">
+        <div class="flex-1">
+          <div class="flex justify-start sm:justify-center space-x-2">
             <vue-count-up v-if="startAnimation" :endVal="2000" :duration="2" class="text-4xl font-bold" />
             <span class="text-4xl font-bold">+</span>
           </div>
-          <p class="text-lg">Downloads</p>
+          <p class="text-lg text-start sm:text-center">Downloads</p>
         </div>
   
         <!-- Divider (Hidden on Mobile) -->
-        <div class="hidden sm:block h-16 w-px bg-black"></div>
+        <div class="w-full h-px  sm:h-16 sm:w-px bg-black"></div>
   
         <!-- Item 2 -->
-        <div class="w-1/2 sm:w-auto flex-1 text-center">
-          <div class="flex items-center justify-center space-x-2">
+        <div class="flex-1">
+          <div class="flex justify-start sm:justify-center space-x-2">
             <vue-count-up v-if="startAnimation" :endVal="85" :duration="2" class="text-4xl font-bold" />
             <span class="text-4xl font-bold">%</span>
           </div>
-          <p class="text-lg">Efficiency Increase</p>
+          <p class="text-lg text-start sm:text-center">Efficiency Increase</p>
         </div>
   
         <!-- Divider (Hidden on Mobile) -->
-        <div class="hidden sm:block h-16 w-px bg-black"></div>
+        <div class="w-full h-px  sm:h-16 sm:w-px bg-black"></div>
   
         <!-- Item 3 -->
-        <div class="w-1/2 sm:w-auto flex-1 text-center">
-          <div class="flex items-center justify-center space-x-2">
+        <div class="flex-1">
+          <div class="flex justify-start sm:justify-center space-x-2">
             <vue-count-up v-if="startAnimation" :endVal="24" :duration="2" class="text-4xl font-bold" />
             <span class="text-4xl font-bold">/7</span>
           </div>
-          <p class="text-lg">Customer Care</p>
+          <p class="text-lg text-start sm:text-center">Customer Care</p>
         </div>
   
         <!-- Divider (Hidden on Mobile) -->
-        <div class="hidden sm:block h-16 w-px bg-black"></div>
+        <div class="w-full h-px  sm:h-16 sm:w-px bg-black"></div>
   
         <!-- Item 4 -->
-        <div class="w-1/2 sm:w-auto flex-1 text-center">
-          <div class="flex items-center justify-center space-x-2">
+        <div class="flex-1">
+          <div class="flex justify-start sm:justify-center space-x-2">
             <vue-count-up v-if="startAnimation" :endVal="10" :duration="2" class="text-4xl font-bold" />
             <span class="text-4xl font-bold">+</span>
           </div>
-          <p class="text-lg">Projects</p>
+          <p class="text-lg text-start sm:text-center">Projects</p>
         </div>
       </div>
     </div>

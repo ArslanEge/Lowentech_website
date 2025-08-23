@@ -2,10 +2,9 @@
     <div>
       <Card class="bg-pure-black text-white p-6 md:p-10 xl:p-12 2xl:p-20 rounded-none">
         <template #content>
-          <div class="flex flex-col md:flex-row items-stretch w-full">
+          <div class="flex flex-col md:flex-row justify-between w-full">
             <!-- Left Section (Features List) -->
-            <div class="flex-[0_0_100%] md:flex-[0_0_25%] flex flex-col md:items-left">
-              <div class="flex flex-col justify-between h-full">
+            <div class="flex flex-col flex-none justify-between items-start space-y-3 md:space-y-0 mb-2 md:mb-0">
                 <div class="border-[1px] border-text-gray rounded-lg px-4 py-2 text-sm font-light w-fit">
                   Custom-Crafted
                 </div>
@@ -24,11 +23,10 @@
                 <div class="border-[1px] border-text-gray rounded-lg px-4 py-2 text-sm font-light w-fit">
                   Advanced Analytics
                 </div>
-              </div>
             </div>
   
             <!-- Right Section (Text) -->
-            <div class="flex-[0_0_100%] md:flex-[0_0_75%] md:text-left">
+            <div class="w-full md:w-3/4 text-left">
               <p class="text-text-gray text-lg md:text-2xl xl:text-3xl 2xl:text-4xl font-normal">
                 Welcome to <strong class="text-header-gray">Löwentech</strong>, where we are passionately dedicated to your
                 technological success. Our expert team specializes in creating tailor-made software solutions, leveraging our

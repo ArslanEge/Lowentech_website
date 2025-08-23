@@ -12,19 +12,10 @@
       <!-- Contact Button -->
       <button
         class="mb-16 px-6 py-3 bg-darker-blue hover:bg-text-blue text-white rounded-lg flex items-center space-x-2 text-lg 2xl:text-2xl font-medium"
-        @click="$router.push({ name: 'contact' })"
-      >
+        @click="$router.push({ name: 'contact' })">
         Contact now
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          class="w-5 h-5"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        >
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <line x1="5" y1="12" x2="19" y2="12"></line>
           <polyline points="12 5 19 12 12 19"></polyline>
         </svg>
@@ -33,11 +24,9 @@
       <!-- Links Section -->
       <div class="grid grid-cols-1 sm:grid-cols-3 gap-12 sm:gap-20 mt-8 text-center sm:text-left">
         <!-- Logo -->
-          <img
-            src="/images/logo.png"
-            class="w-[50px] sm:w-[60px] md:w-[90px] lg:w-[110px] 2xl:w-[130px]"
-            alt="Logo"
-          />
+        <div class="flex justify-center sm:justify-start items-center">
+          <img src="/images/logo.png" class="w-[50px] sm:w-[60px] md:w-[90px] lg:w-[110px] 2xl:w-[130px]" alt="Logo" />
+        </div>
 
         <!-- Quick Links -->
         <div>

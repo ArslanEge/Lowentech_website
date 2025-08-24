@@ -10,6 +10,10 @@
         <ContactCard/>
       </section>
 
+      <section class="">
+        <ContactUs/>
+      </section>
+
   
 
 
@@ -27,6 +31,7 @@
   import DefaultFooter from '@/components/footer/DefaultFooter.vue'
   import ContactImage from '@/components/ContactPage/ContactImage.vue'
   import ContactCard from '@/components/ContactPage/ContactCard.vue'
+  import ContactUs from '@/components/ContactPage/ContactUs.vue'
 
 
   
@@ -35,7 +40,8 @@
       DefaultHeader,
       DefaultFooter,
       ContactImage,
-      ContactCard
+      ContactCard,
+      ContactUs
     },
   }
   </script>

@@ -9,7 +9,7 @@ import ContactView from './views/ContactView.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
-    path: '',
+    path: '/',
     name: 'home',
     component: HomeView,
     meta: { title: 'Home | Löwentech' },
